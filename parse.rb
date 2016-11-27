@@ -9,7 +9,7 @@ output_file = ARGV[1]
 # Writer to write in output file
 writer = File.open(output_file, 'w')
 
-# Now sort the hash by city altitude in descending order and then write to output file
+# Now get highest cities in descending order and then write to output file
 highest_cities(input_file, ';').each do |city|
   output = "#{city[5]}m - #{city[2]}, #{city[1]}"
   puts output

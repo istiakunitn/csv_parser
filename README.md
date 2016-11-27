@@ -10,3 +10,14 @@ From the project root directory run
 ```
 $ ruby parse.rb input.csv output.txt
 ```
+
+How to run test?
+================================
+From the project root directory run
+
+```
+$ bundle
+$ ruby test.rb
+```
+
+
