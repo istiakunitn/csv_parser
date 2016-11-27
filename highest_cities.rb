@@ -1,6 +1,6 @@
 require 'csv'
 
-def highest_cities(input_file, col_sep, output_file)
+def highest_cities(input_file, col_sep)
   raise Exception.new("#{input_file} not found") unless File.exist?(input_file)
 
   # CSV reader to read from input file
